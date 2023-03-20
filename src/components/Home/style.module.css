@@ -1,0 +1,101 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.518);
+}
+
+.text_div {
+  margin-top: 15vmax;
+  width: 49%;
+}
+
+.text_div > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2vmax;
+}
+
+.text_div > p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(222, 222, 222);
+  margin-bottom: 1vmax;
+}
+
+.text_div > button {
+  margin-top: 4vmax;
+  font-size: 1.1rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.next_container {
+  padding-left: 4.5vmax;
+  min-height: 100vh;
+  width: 95vw;
+}
+
+.txt {
+  margin-top: 5vmax;
+}
+
+.txt > h1 {
+  line-height: 3.3vmax;
+  width: 35%;
+  font-size: 3.5vmax;
+  font-weight: 700;
+  margin-bottom: 1vmax;
+}
+
+.txt > p {
+  font-size: 1.2vmax;
+  width: 40%;
+}
+
+.prob_solve {
+  margin-top: 3vmax;
+  margin-bottom: 3vmax;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prob_solve .sm {
+  height: 100%;
+  width: 32%;
+}
+
+.sm img {
+  height: 4vmax;
+  margin-bottom: 1vmax;
+}
+
+.sm > h3 {
+  font-size: 1.8vmax;
+  margin-bottom: 1vmax;
+}
+
+.sm > p {
+  font-size: 1.2vmax;
+}
+
+.last_container {
+  padding-left: 4.5vmax;
+  min-height: 90vh;
+  width: 100vw;
+  background-color: aquamarine;
+}

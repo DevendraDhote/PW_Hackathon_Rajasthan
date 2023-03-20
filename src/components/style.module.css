@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    height: 40vmax;
+    width: 80vmax;
+    border-radius: 2vmax;
+    background-color: rgb(214, 214, 214);
+    overflow: hidden;
+}
+
+.lft{
+    height: 100%;
+    width: 40%;
+    background-color: grey;
+    background-image: url(https://images.unsplash.com/photo-1502230831726-fe5549140034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.rgt{
+    height: 100%;
+    width: 60%;
+    padding: 1vmax;
+    background-color: rgb(236, 236, 236);
+}
+
+.form{
+    margin-left: 60px;
+}
+
+.container{
+    height: 100% !important;
+    width: 100;
+    background-color: red;
+}
+
